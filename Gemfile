@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.11'
 gem 'bootstrap-sass', '2.1'
 gem 'pg', '0.12.2'
 gem 'jquery-rails', '2.0.2'
@@ -11,6 +11,10 @@ group :development, :test do
   gem 'terminal-notifier-guard', '1.5.3'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+end
+
+group :development do
+  gem 'annotate', '2.5.0'
 end
 
 # Gems used only for assets and not required
